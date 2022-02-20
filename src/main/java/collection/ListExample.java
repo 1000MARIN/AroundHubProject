@@ -51,7 +51,7 @@ public class ListExample {
 
         System.out.println(arrayList.size());
 
-        System.out.println(arrayList.indexOf(500));
+        System.out.println(arrayList.indexOf(500)); // 500이 어느 순서에 있는지?
 
         System.out.println("-------------------------------↑↑↑ ArrayList ↑↑↑--------------------------");
 
@@ -80,7 +80,7 @@ public class ListExample {
 
         System.out.println("--------------------------");
 
-        Collections.sort(linkedList);
+        Collections.sort(linkedList);   // 오름차순 정렬
 
         for (String s : linkedList) {
             System.out.println(s);
@@ -92,7 +92,7 @@ public class ListExample {
         Vector<String> vector = new Vector<>();
 
         System.out.println(vector.size());
-        System.out.println(vector.capacity());
+        System.out.println(vector.capacity());  // 기본 물리적인 크기
 
         System.out.println("--------------------------");
 
@@ -113,7 +113,7 @@ public class ListExample {
 
         System.out.println("--------------------------");
 
-        Collections.sort(vector);
+        Collections.sort(vector);   // 오름차순 정렬
 
         for (String s : vector) {
             System.out.println(s);
@@ -132,11 +132,11 @@ public class ListExample {
 
         System.out.println(stack.size());
 
-        System.out.println(stack.peek());
+        System.out.println(stack.peek());   // 마지막에 넣은 자료 값만 리턴해주고 삭제 안함
 
         System.out.println(stack.size());
 
-        System.out.println(stack.pop());
+        System.out.println(stack.pop());    // 마지막에 넣은 자료 값 리턴하고 삭제
 
         System.out.println(stack.size());
 
