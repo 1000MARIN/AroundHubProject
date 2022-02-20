@@ -13,6 +13,16 @@ public class CollectionExample {
     Queue queue;
     PriorityQueue priorityQueue;
 
+    // ---------------------
+
+    HashSet hashSet;
+
+    TreeSet treeSet;
+
+    SortedSet sortedSet;
+
+    LinkedHashSet linkedHashSet;
+
 
 
 }
